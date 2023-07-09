@@ -1,5 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 /* nav releated styles */
 nav{
@@ -74,42 +76,104 @@ margin-bottom: 30px;
 height: 676px;
 }
 .about{
-    height: 550px;
-    width: 1140px;
-    border-radius: 10px;
+    max-width: 1140px;
+max-height: 550px;
+border-radius: 10px;
 background: #FFF8F3;
-border: 2px solid none;
-margin: 130px auto;
-padding: 40px;
-}
-.aboutme{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-}
-.imparagraph{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-.details{
-    display: flex;
-    justify-content: space-around;
-}
-.aboutdetails{
+margin: 120px auto;
 text-align: center;
+padding: 210px 160px;
+}
+.first-heading{
+    color:  #181818;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 0px;
+}
+.first-paragraph{
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 30px 0px;
+margin-top: 0px;
+}
+.main-container{
+    display: flex;
+    justify-content:space-around;
+}
+.third-heading{
+    color: #757575;
 font-size: 20px;
 font-weight: 400;
 line-height: 30px;
+margin-bottom: 0px;
 }
-.details-description{
-    color: black;
-    margin-top: 0px;
+.third-paragraph{
+    color: #474747;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+margin-top: 0px;
+}
+.what-i-do{
+   background-color: #FFF;
+   margin: 50px 400px;
+   text-align: center;
+}
+.skill-container{
+    display: flex;
+    margin: 30px 230px;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.first-headin{
+    color:#181818;
+    font-size: 20px;
     font-weight: 700;
 }
-.details-title{
+.first-paragrap{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.summary-of-resume{
+    display: flex;
+    margin: 150px 230px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+#division{
+    margin-top: 80px;
+}
+.my-education{
     color: #474747;
-    margin-bottom: 0px;
+font-size: 30px;
+font-weight: 700;
+}
+.second-heading{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.fourth-heading{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.second-paragraph{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+#baton{
+    text-align: center;
+    margin-top: 0px;
 }
