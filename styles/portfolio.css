@@ -5,6 +5,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 0px 200px;
 }
 nav >ul{
     display: flex;
@@ -36,4 +37,32 @@ font-weight: 800;
 }
 .r-primary{
     color: #FD6E0A;
+}
+.header{
+    background-color:#FFF8F3;;
+}
+.third{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.first{
+    color: #181818;
+font-size: 85px;
+font-weight: 700;
+}
+.paragraph{
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+}
+.banner{
+    display: flex;
+}
+.description{
+    padding: 0px 200px;
+}
+.image{
+    width: 584px;
+height: 676px;
 }
